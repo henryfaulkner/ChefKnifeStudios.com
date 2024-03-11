@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faSquareXTwitter, faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ChefKnifeStudios.com';
+  faSquareXTwitter = faSquareXTwitter;
+  faSquareInstagram = faSquareInstagram;
 }

@@ -1,5 +1,39 @@
 <div id="app-container">
   <div id="main-container">
-    <img src="/images/company-logo.png" alt="Company Logo">
+    <div class="header">
+      <div class="company-logo">
+        <img src="/assets/images/logo/company-logo.png" alt="Company Logo" width="184" height="136">
+      </div>
+
+      <div class="socials">
+        <a href="https://twitter.com/ChefKnifeLLC" target="_blank">
+          <fa-icon [icon]="faSquareXTwitter" size="3x" [fixedWidth]="true" class="maroon"></fa-icon>
+        </a>
+        <a href="https://www.instagram.com/chefknifestudios/" target="_blank">
+          <fa-icon [icon]="faSquareInstagram" size="3x" [fixedWidth]="true" class="maroon"></fa-icon>
+        </a>
+      </div>
+    </div>
+
+    <div class="callouts">
+      <h1 class="main-callout">
+        <span class="dark-maroon">
+          Video game company <br/>
+          based in Atlanta, GA, USA. <br/>
+          Work-in progress. 
+        </span>
+        <span class="red">
+          “Let me cook.”
+        </span>
+      </h1>
+
+      <h4 class="sub-callout tarnished-steel">
+        Follow our socials for updates.
+      </h4>
+    </div>
+
+    <div id="footer" class="tarnished-steel">
+      <span>Copyright © 2024 Chef Knife Studios LLC - All Rights Reserved.</span>
+    </div>
   </div>
 </div>

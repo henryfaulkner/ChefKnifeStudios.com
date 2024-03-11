@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ChefKnifeStudios.com:build:production"
+              "buildTarget": "ChefKnifeStudios.com:build:production"
             },
             "development": {
-              "browserTarget": "ChefKnifeStudios.com:build:development"
+              "buildTarget": "ChefKnifeStudios.com:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ChefKnifeStudios.com:build"
+            "buildTarget": "ChefKnifeStudios.com:build"
           }
         },
         "test": {

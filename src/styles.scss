@@ -1,1 +1,18 @@
+@import "./assets/styles/utility/utility";
+
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: BanglaMN;
+    src: url("./assets/fonts/Bangla-MN.ttf");
+}
+
+@font-face {
+    font-family: FranklinGothicATF;
+    src: url("./assets/fonts/FranklinATFBQ-Regular.otf");
+}
