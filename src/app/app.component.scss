@@ -69,6 +69,10 @@
         font-size: 38px;
         line-height: 64px;
         font-family: BanglaMN, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+
+        @media (max-width: $thin-tablet-breakpoint) {
+            font-size: 24px;
+        }
     }
 
     .sub-callout {
@@ -77,6 +81,10 @@
         font-size: 28px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
         font-weight: thin;
+
+        @media (max-width: $thin-tablet-breakpoint) {
+            font-size: 16px;
+        }
     }
 
     @media (max-width: $thin-tablet-breakpoint) {
